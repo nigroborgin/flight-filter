@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 public class ArrivalBeforeDeparture implements FlightFilter {
+
     @Override
     public boolean check(Flight flight) {
         List<Segment> segments = flight.getSegments();
