@@ -6,14 +6,14 @@ import java.util.stream.Collectors;
 /**
  * Bean that represents a flight.
  */
-class Flight {
+public class Flight {
     private final List<Segment> segments;
 
     Flight(final List<Segment> segs) {
         segments = segs;
     }
 
-    List<Segment> getSegments() {
+    public List<Segment> getSegments() {
         return segments;
     }
 

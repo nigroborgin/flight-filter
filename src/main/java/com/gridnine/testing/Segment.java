@@ -7,7 +7,7 @@ import java.util.Objects;
 /**
  * Bean that represents a flight segment.
  */
-class Segment {
+public class Segment {
     private final LocalDateTime departureDate;
 
     private final LocalDateTime arrivalDate;
@@ -17,11 +17,11 @@ class Segment {
         arrivalDate = Objects.requireNonNull(arr);
     }
 
-    LocalDateTime getDepartureDate() {
+    public LocalDateTime getDepartureDate() {
         return departureDate;
     }
 
-    LocalDateTime getArrivalDate() {
+    public LocalDateTime getArrivalDate() {
         return arrivalDate;
     }
 
