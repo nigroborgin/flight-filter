@@ -1,4 +1,4 @@
-package com.gridnine.testing;
+package com.gridnine.testing.flights;
 
 import java.util.List;
 import java.util.stream.Collectors;

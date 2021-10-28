@@ -1,4 +1,4 @@
-package com.gridnine.testing;
+package com.gridnine.testing.flights;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
